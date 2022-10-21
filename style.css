@@ -1,0 +1,67 @@
+#one #menu {
+    display: flex;
+}
+#one #menu a {
+    margin-right: 5px;
+     padding: 10px;
+      font: 15px Arial;
+       text-decoration: none;
+      color: #f3f3f3;
+     border: 1px solid #0bc81e;
+    background-color: rgb(11, 169, 66);
+}
+#one #menu a:hover {
+    color: rgb(2, 170, 14);
+        border: 1px solid rgb(4, 176, 21);
+    background-color: #f5faf6;
+}
+#one #menu a.active {
+	color: rgb(2, 170, 14);
+	 border: 1px solid rgb(2, 170, 14);
+	background-color: #F5F6FA;
+}
+#two #menu {
+    display: flex;
+     flex-direction: column;
+    width: 300px;
+}
+#two #menu a {
+    margin-right: 5px;
+    padding: 10px;
+     font: 15px Arial;
+      text-decoration: none;
+     color: #f3f3f3;
+    border: 1px solid #0bc81e;
+   background-color: rgb(11, 169, 66);
+}
+#two #menu a:hover {
+    color: rgb(2, 170, 14);
+        border: 1px solid rgb(4, 176, 21);
+    background-color: #f5faf6; }
+#two #menu a.active {
+        color: rgb(2, 170, 14);
+         border: 1px solid rgb(2, 170, 14);
+        background-color: #F5F6FA;
+}
+#fre #menu {
+    display: flex;
+}
+#fre #menu a {
+    margin-right: px;
+     padding: 10px;
+      font: 15px Arial;
+       text-decoration: none;
+      color: #f3f3f3;
+     border: 1px solid #0bc81e;
+    background-color: rgb(11, 169, 66);
+}
+#fre #menu a:hover {
+    color: rgb(2, 170, 14);
+        border: 1px solid rgb(4, 176, 21);
+    background-color: #f5faf6;
+}
+#fre #menu a.active {
+	color: rgb(2, 170, 14);
+	 border: 1px solid rgb(2, 170, 14);
+	background-color: #F5F6FA;
+}
